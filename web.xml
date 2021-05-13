@@ -5,21 +5,13 @@
 	 xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
 	 version="3.1">
    
-    <servlet>
-        <servlet-name>abcd</servlet-name>
-        <servlet-class>serv.FirstServlet</servlet-class>
-    </servlet>
+   
     <servlet>
         <servlet-name>xyz</servlet-name>
-        <servlet-class>serv.SecondServlet</servlet-class>
+        <servlet-class>serv.ServletPage</servlet-class>
     </servlet>
   
-    
-    <servlet-mapping>
-        <servlet-name>abcd</servlet-name>
-        <url-pattern>/demo</url-pattern>
-    </servlet-mapping>
-    
+
     <servlet-mapping>
         <servlet-name>xyz</servlet-name>
         <url-pattern>/hello</url-pattern>
